@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <title>Valorant Minigames | Home</title>
+</head>
+<body class="bg-danger">
+    <header>
+        <div class="px-3 py-2 bg-dark text-white">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                    Valorant Minigames
+                </a>
+    
+                <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                    <li>
+                        <a href="#" class="nav-link text-secondary">
+                            <i class="bi bi-house-door d-block mb-1 text-center" width="24" height="24"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-controller d-block mb-1 text-center" width="24" height="24"></i>
+                            Minigames
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown08">
+                            <li><a class="dropdown-item" href="#">Guess the Rank</a></li>
+                            <li><a class="dropdown-item" href="#">Guess the Agent</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="leaderboard.html" class="nav-link text-white">
+                            <i class="bi bi-trophy d-block mb-1 text-center" width="24" height="24"></i>
+                            Leaderboard
+                        </a>
+                    </li>
+                </ul>
+                <span class="dropdown d-flex justify-self-end my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                    <a class="btn btn-outline-light btn-lg dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-globe text-center" width="24" height="24"></i>
+                        ENG
+                    </a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown08">
+                        <li><a class="dropdown-item text-white" href="#">English</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Spanish</a></li>
+                    </ul>
+                </span>
+            </div>
+          </div>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <section class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Guess the Rank</h1>
+                <span>Points: 0</span>
+                <p>Point system:</p>
+                <p>If you guess within the rank: 1 point</p>
+                <p>If you guess both the rank and the division: 3 points</p>
+                <p>If you guess a Radiant: 2 points</p>
+            </div>
+            <div class="col-md-12">
+                <div class="bg-dark" width="100" height="75"></div>
+            </div>
+            <div class="col-md-12">
+                <div class="input-group">
+                    <label for="rankList" class="form-label">Rank:</label>
+                    <input class="form-control" list="rankOptions" id="rankList" placeholder="Type to search...">
+                    <datalist id="rankOptions">
+                        <option value="Iron 1"></option>
+                        <option value="Iron 2"></option>
+                        <option value="Iron 3"></option>
+                        <option value="Bronze 1"></option>
+                        <option value="Bronze 2"></option>
+                        <option value="Bronze 3"></option>
+                        <option value="Silver 1"></option>
+                        <option value="Silver 2"></option>
+                        <option value="Silver 3"></option>
+                        <option value="Gold 1"></option>
+                        <option value="Gold 2"></option>
+                        <option value="Gold 3"></option>
+                        <option value="Platinum 1"></option>
+                        <option value="Platinum 2"></option>
+                        <option value="Platinum 3"></option>
+                        <option value="Diamond 1"></option>
+                        <option value="Diamond 2"></option>
+                        <option value="Diamond 3"></option>
+                        <option value="Inmortal 1"></option>
+                        <option value="Inmortal 2"></option>
+                        <option value="Inmortal 3"></option>
+                        <option value="Radiant"></option>
+                    </datalist>
+                </div>
+                <div class="input-group">
+                    <button class="btn btn-primary btn-lg">Guess</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid bg-dark  text-white">
+        <div class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Minigames</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Leaderboard</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-white">About</a></li>
+            </ul>
+            <p class="text-center">&copy; 2021 Company, Inc</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
