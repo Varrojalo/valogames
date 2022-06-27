@@ -44,7 +44,6 @@ const volumeProgress = volumeBar.querySelector(".progress");
 const rulesBtn = document.querySelector("#info-icon");
 const infoContainer = document.querySelector("#info-container");
 
-
 async function GetAllAgents()
 {
     clearTimeout(interval);
@@ -275,4 +274,7 @@ rulesBtn.addEventListener('mouseover', () => {
 rulesBtn.addEventListener('mouseleave', () => {
     infoContainer.classList.add("hide-element");
 });
+
+
+
 GetAllAgents();
